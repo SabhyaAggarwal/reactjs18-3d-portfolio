@@ -16,18 +16,9 @@ import {
   typescript,
   html,
   css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -40,10 +31,6 @@ export const navLinks: TNavLink[] = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
-  },
-  {
     id: "contact",
     title: "Contact",
   },
@@ -51,19 +38,19 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Software Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Python Programmer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Hardware Enthusiast",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Creative Coder",
     icon: creator,
   },
 ];
@@ -82,32 +69,20 @@ const technologies: TTechnology[] = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Python",
+    icon: javascript, // Using javascript icon as placeholder for Python
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "C++",
+    icon: typescript, // Using typescript icon as placeholder for C++
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Unity",
+    icon: threejs, // Using threejs icon as placeholder for Unity
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
+    name: "Linux (Arch)",
+    icon: docker, // Using docker icon as placeholder for Linux
   },
   {
     name: "git",
@@ -117,148 +92,45 @@ const technologies: TTechnology[] = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
-const experiences: TExperience[] = [
-  {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-];
+const experiences: TExperience[] = [];
 
-const testimonials: TTestimonial[] = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+const testimonials: TTestimonial[] = [];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Manim-AI-Code-Generator",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Generate beautiful Manim animations directly from natural language using the power of AI. A creative tool that bridges the gap between ideas and visual mathematics.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "ai",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "manim",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: carrent, // Using existing image as placeholder
+    sourceCodeLink: "https://github.com/SabhyaAggarwal/Manim-AI-Code-Generator",
   },
   {
-    name: "Job IT",
+    name: "Stock Market Simulator",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A dynamic web-based simulator designed to help users explore and understand stock market dynamics and investment strategies through interactive learning.",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -266,8 +138,71 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: jobit, // Using existing image as placeholder
+    sourceCodeLink: "https://github.com/SabhyaAggarwal/Stock-Market-Simulator",
+  },
+  {
+    name: "VAC with Camera",
+    description:
+      "A project which connects a virtual cable between your input microphone and your output speakers with an addition camera functionality for enhanced communication.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "audio",
+        color: "green-text-gradient",
+      },
+      {
+        name: "video",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide, // Using existing image as placeholder
+    sourceCodeLink: "https://github.com/SabhyaAggarwal/VAC-with-Camera",
+  },
+  {
+    name: "Food to Recipe Convertor",
+    description:
+      "A smart application that converts food images into detailed recipes with ingredients and cooking instructions using advanced AI technology.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "opencv",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent, // Using existing image as placeholder
+    sourceCodeLink: "https://github.com/SabhyaAggarwal/Food-to-Recipe-Convertor",
+  },
+  {
+    name: "Tambola",
+    description:
+      "A tambola/housie counter application for managing and playing the popular Indian bingo game with friends and family.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit, // Using existing image as placeholder
+    sourceCodeLink: "https://github.com/SabhyaAggarwal/Tambola",
   },
 ];
 
