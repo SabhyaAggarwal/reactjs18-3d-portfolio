@@ -2,6 +2,7 @@
   "name": "threejs-3d-portfolio",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://sabhya.me/reactjs18-3d-portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
