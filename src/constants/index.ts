@@ -82,7 +82,11 @@ const technologies: TTechnology[] = [
   },
   {
     name: "Linux (Arch)",
-    icon: docker, // Using docker icon as placeholder for Linux
+    icon: typescript, // Using typescript icon as placeholder for Linux
+  },
+  {
+    name: "Docker",
+    icon: docker,
   },
   {
     name: "git",
