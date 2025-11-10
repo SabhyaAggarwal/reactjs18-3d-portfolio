@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Sabhya Aggarwal — 3D Portfolio",
+    fullName: "Sabhya Aggarwal",
+    email: "sabhya.aiss@gmail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Sabhya Aggarwal",
+    p: ["Student | Software & Hardware", "Enthusiast"],
   },
   contact: {
     p: "Get in touch",
@@ -67,11 +67,7 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I am Sabhya Aggarwal, a student passionate about technology and innovation. Born in 2014, I'm currently 11 years old and my birthday is on June 18th! I thrive on blending software and hardware to craft impactful and creative solutions. I'm always eager to explore new technologies, work on exciting projects, and collaborate to build amazing things together!`,
     },
     experience: {
       p: "What I have done so far",
