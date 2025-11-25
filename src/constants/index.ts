@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  tux,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -82,7 +83,7 @@ const technologies: TTechnology[] = [
   },
   {
     name: "Linux (Arch)",
-    icon: typescript, // Using typescript icon as placeholder for Linux
+    icon: tux,
   },
   {
     name: "Docker",
