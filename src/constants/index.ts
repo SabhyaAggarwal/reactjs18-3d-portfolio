@@ -13,7 +13,6 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   git,
@@ -22,7 +21,10 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
+  tux,
+  cplusplus,
+  python,
+  unity,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -70,19 +72,19 @@ const technologies: TTechnology[] = [
   },
   {
     name: "Python",
-    icon: javascript, // Using javascript icon as placeholder for Python
+    icon: python,
   },
   {
     name: "C++",
-    icon: typescript, // Using typescript icon as placeholder for C++
+    icon: cplusplus,
   },
   {
     name: "Unity",
-    icon: threejs, // Using threejs icon as placeholder for Unity
+    icon: unity,
   },
   {
     name: "Linux (Arch)",
-    icon: typescript, // Using typescript icon as placeholder for Linux
+    icon: tux,
   },
   {
     name: "Docker",
@@ -122,7 +124,7 @@ const projects: TProject[] = [
       },
     ],
     image: carrent, // Using existing image as placeholder
-    sourceCodeLink: "https://github.com/SabhyaAggarwal/Manim-AI-Code-Generator",
+    sourceCodeLink: "https://sabhya.me/Manim-AI-Code-Generator",
   },
   {
     name: "Stock Market Simulator",
@@ -143,7 +145,7 @@ const projects: TProject[] = [
       },
     ],
     image: jobit, // Using existing image as placeholder
-    sourceCodeLink: "https://github.com/SabhyaAggarwal/Stock-Market-Simulator",
+    sourceCodeLink: "https://sabhya.me/Stock-Market-Simulator",
   },
   {
     name: "VAC with Camera",
@@ -164,7 +166,7 @@ const projects: TProject[] = [
       },
     ],
     image: tripguide, // Using existing image as placeholder
-    sourceCodeLink: "https://github.com/SabhyaAggarwal/VAC-with-Camera",
+    sourceCodeLink: "https://sabhya.me/VAC-with-Camera",
   },
   {
     name: "Food to Recipe Convertor",
@@ -185,7 +187,7 @@ const projects: TProject[] = [
       },
     ],
     image: carrent, // Using existing image as placeholder
-    sourceCodeLink: "https://github.com/SabhyaAggarwal/Food-to-Recipe-Convertor",
+    sourceCodeLink: "https://sabhya.me/Food-to-Recipe-Convertor",
   },
   {
     name: "Tambola",
@@ -206,7 +208,7 @@ const projects: TProject[] = [
       },
     ],
     image: jobit, // Using existing image as placeholder
-    sourceCodeLink: "https://github.com/SabhyaAggarwal/Tambola",
+    sourceCodeLink: "https://sabhya.me/Tambola",
   },
 ];
 
