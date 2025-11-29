@@ -25,11 +25,17 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
         tiltMaxAngleY={30}
         glareColor="#aaa6c3"
       >
-        <div className="bg-tertiary w-full rounded-2xl p-5 sm:w-[300px]">
+        <div
+          onClick={() => window.open(`https://sabhya.me/${index + 1}`, "_blank")}
+          className="bg-tertiary w-full rounded-2xl p-5 sm:w-[300px] cursor-pointer"
+        >
           <div className="flex justify-between items-start mb-5">
             <h3 className="text-[24px] font-bold text-white">{name}</h3>
             <div
-              onClick={() => window.open(sourceCodeLink, "_blank")}
+              onClick={(e) => {
+                e.stopPropagation();
+                window.open(sourceCodeLink, "_blank");
+              }}
               className="black-gradient flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
             >
               <img

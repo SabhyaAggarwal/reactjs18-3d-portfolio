@@ -7,8 +7,11 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import cplusplus from "./tech/C++ (CPlusPlus).png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
+import python from "./tech/Python.png";
+import unity from "./tech/Unity.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -40,6 +43,7 @@ export {
   github,
   menu,
   close,
+  cplusplus,
   css,
   docker,
   figma,
@@ -61,4 +65,6 @@ export {
   jobit,
   tripguide,
   tux,
+  python,
+  unity,
 };
